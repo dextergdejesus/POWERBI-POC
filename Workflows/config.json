@@ -1,0 +1,27 @@
+{
+    "deployments": {
+      "Files": {
+        "mode": "Report",
+        "source": {
+          "type": "File",
+          "path": "./*.pbix$"
+        },
+        "authentication": {
+          "type": "ServicePrincipal",
+          "tenantId": "pbitools.org",
+          "clientId": "ea466792-73b0-4083-ad11-9524ff8c78ca",
+          "clientSecret": "%PBI_CLIENT_SECRET%"
+        },
+        "options": {
+          "import": {
+            "nameConflict": "CreateOrOverwrite"
+          }
+        },
+        "environments": {
+          "DEV": {
+            "workspace": "Reports DevOps Tutorial"
+          }
+        }
+      }
+    }
+  }
