@@ -7,7 +7,7 @@ on:
       - DEV
 
 env:
-  PROFILE: Files
+  PROFILE: DEX
   ENVIRONMENT: DEV
 
 jobs:
