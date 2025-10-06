@@ -19,7 +19,7 @@
         },
         "environments": {
           "DEV": {
-            "workspace": "Reports DevOps Tutorial"
+            "workspace": "WS-POWER-BI-POC"
           }
         }
       }
