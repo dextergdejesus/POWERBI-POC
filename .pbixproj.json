@@ -9,7 +9,7 @@
         },
         "authentication": {
           "type": "ServicePrincipal",
-          "tenantId": "pbitools.org",
+          "tenantId": "6e2cb994-1bd1-4604-b7a5-5fd077508348",
           "clientId": "ea466792-73b0-4083-ad11-9524ff8c78ca",
           "clientSecret": "%PBI_CLIENT_SECRET%"
         },
